@@ -33,6 +33,13 @@
                      sans: ['"Plus Jakarta Sans"', 'sans-serif'],
                   },
                   colors: {
+                     brand: {
+                        50: '#f0f9ff',
+                        100: '#e0f2fe',
+                        500: '#0ea5e9',
+                        600: '#0284c7',
+                        900: '#0c4a6e',
+                     },
                      bgPure: '#030303',
                      bgSurface: '#0a0a0a',
                      borderSubtle: '#222222',
@@ -189,6 +196,8 @@
             <div class="hidden md:flex items-center space-x-2">
                <a href="#home"
                   class="px-5 py-2 text-sm font-medium text-textMuted hover:text-white transition-colors rounded-full hover:bg-white/5">Beranda</a>
+               <a href="#experience"
+                  class="px-5 py-2 text-sm font-medium text-textMuted hover:text-white transition-colors rounded-full hover:bg-white/5">Pengalaman</a>
                <a href="#expertise"
                   class="px-5 py-2 text-sm font-medium text-textMuted hover:text-white transition-colors rounded-full hover:bg-white/5">Keahlian</a>
                <a href="#work"
@@ -213,6 +222,8 @@
             <div class="flex flex-col p-2">
                <a href="#home"
                   class="p-4 text-base font-medium text-white border-b border-white/5 rounded-t-xl hover:bg-white/5">Beranda</a>
+               <a href="#experience"
+                  class="p-4 text-base font-medium text-white border-b border-white/5 hover:bg-white/5">Pengalaman</a>
                <a href="#expertise"
                   class="p-4 text-base font-medium text-white border-b border-white/5 hover:bg-white/5">Keahlian</a>
                <a href="#work"
@@ -255,8 +266,8 @@
                </h1>
 
                <p class="text-base sm:text-lg lg:text-xl text-textMuted max-w-2xl mb-10 font-light leading-relaxed">
-                  Saya seorang <strong class="text-white font-medium">Website Developer</strong> yang mengubah
-                  kompleksitas teknis menjadi antarmuka elegan dan performa luar biasa.
+                  Saya seorang <strong class="text-white font-medium">Freelance</strong> yang mengubah
+                  kompleksitas teknis menjadi antarmuka elegan dan performa luar biasa dalam pengembangan.
                </p>
 
                <div
@@ -267,7 +278,7 @@
                   </a>
                   <a href="#contact"
                      class="btn-depth w-full sm:w-auto px-8 py-4 rounded-full text-sm sm:text-base font-medium flex items-center justify-center gap-3">
-                     Mulai Proyek <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                     Contact <i class="fa-solid fa-arrow-right -rotate-45"></i>
                   </a>
                </div>
             </div>
@@ -289,14 +300,130 @@
                         <i class="fa-brands fa-react text-2xl animate-[spin_4s_linear_infinite]"></i>
                         <div>
                            <p class="text-[10px] sm:text-xs text-textMuted font-medium uppercase tracking-wider">
-                              Spesialisasi</p>
-                           <p class="text-sm font-bold text-white">Full-Stack Dev</p>
+                              Freelance
+                           </p>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
 
+         </div>
+      </section>
+
+      <section id="experience"
+         class="py-24 md:py-32 relative border-t border-white/5 bg-bgSurface px-4 sm:px-6 lg:px-8">
+         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+               <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-3">Jejak Karir</h2>
+               <h3 class="text-3xl md:text-4xl font-bold text-light-900">Pengalaman Kerja</h3>
+            </div>
+            <!-- Timeline -->
+            <div class="relative border-l-2 border-slate-200 ml-4 md:ml-6 space-y-10 md:space-y-12">
+
+               <!-- Experience Item 1 -->
+               <div class="relative pl-6 md:pl-10">
+                  <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-brand-600 ring-4 ring-white">
+                  </div>
+                  <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                     <h4 class="text-xl font-bold text-light-900">Guru ICT</h4>
+                     <span
+                        class="text-sm font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Jan
+                        2026 - Jan 2026</span>
+                  </div>
+                  <h5 class="text-base font-semibold text-light-500 mb-4">SHS Mutiara Bangsa 3</h5>
+                  <ul class="space-y-2 text-light-600 text-sm md:text-base list-disc list-outside ml-4">
+                     <li class="text-light-600">Menyusun kurikulum dan menyampaikan materi pembelajaran teknologi
+                        informasi, komputer dasar,
+                        serta pemrograman kepada para siswa.</li>
+                     <li class="text-light-600">Mengelola infrastruktur laboratorium TIK secara menyeluruh, termasuk
+                        instalasi perangkat lunak,
+                        pemeliharaan perangkat
+                        keras, dan perawatan jaringan komputer.
+                     </li>
+                  </ul>
+               </div>
+
+               <!-- Experience Item 2 -->
+               <div class="relative pl-6 md:pl-10">
+                  <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-slate-300 ring-4 ring-white">
+                  </div>
+                  <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                     <h4 class="text-xl font-bold text-light-900">Livestreamer</h4>
+                     <span
+                        class="text-sm font-semibold text-brand-600 bg-slate-100 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Mar
+                        2025 - Jun 2025</span>
+                  </div>
+                  <h5 class="text-base font-semibold text-light-500 mb-4">PT Local Service Duck</h5>
+                  <ul class="space-y-2 text-light-600 text-sm md:text-base list-disc list-outside ml-4">
+                     <li>Menyelenggarakan siaran langsung untuk mengedukasi audiens mengenai pemrograman dan pembuatan
+                        website.</li>
+                     <li>Membangun komunitas penonton interaktif melalui sesi permainan First-Person Shooter
+                        (Counter-Strike 1.6 & Point Blank).</li>
+                  </ul>
+               </div>
+
+               <!-- Experience Item 3 -->
+               <div class="relative pl-6 md:pl-10">
+                  <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-slate-300 ring-4 ring-white">
+                  </div>
+                  <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                     <h4 class="text-xl font-bold text-light-900">IT Support Helper</h4>
+                     <span
+                        class="text-sm font-semibold text-brand-600 bg-slate-100 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Nov
+                        2024 - Jan 2025</span>
+                  </div>
+                  <h5 class="text-base font-semibold text-light-500 mb-4">Kitsune</h5>
+                  <ul class="space-y-2 text-light-600 text-sm md:text-base list-disc list-outside ml-4">
+                     <li>Melakukan inspeksi mendalam (code review) untuk mengidentifikasi kesalahan logika maupun
+                        sintaks pada aplikasi.</li>
+                     <li>Mendiagnosis dan menyelesaikan masalah (bug fixing) pada perangkat lunak agar sistem dapat
+                        kembali beroperasi secara
+                        optimal dan stabil.</li>
+                  </ul>
+               </div>
+
+               <!-- Experience Item 4 -->
+               <div class="relative pl-6 md:pl-10">
+                  <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-brand-600 ring-4 ring-white">
+                  </div>
+                  <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                     <h4 class="text-xl font-bold text-light-900">Full Stack Developer PHP (Freelance)</h4>
+                     <span
+                        class="text-sm font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Agustus
+                        2021 - Sekarang</span>
+                  </div>
+                  <h5 class="text-base font-semibold text-light-500 mb-4">Independen</h5>
+                  <p class="text-light-600 text-sm md:text-base mb-2">Mengembangkan dan mengelola berbagai sistem
+                     aplikasi berbasis website untuk klien dari institusi pendidikan, toko, hingga kontraktor.
+                     <br><em class="text-sm text-light-500 mt-2 block">(Rincian aplikasi dan proyek yang telah
+                        diselesaikan dapat dilihat pada bagian <a href="#work"><b>Keahlian</b></a> di bawah).</em>
+                  </p>
+               </div>
+
+               <!-- Experience Item 5 -->
+               <div class="relative pl-6 md:pl-10">
+                  <div class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-slate-300 ring-4 ring-white">
+                  </div>
+                  <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                     <h4 class="text-xl font-bold text-light-900">Petugas Koperasi</h4>
+                     <span
+                        class="text-sm font-semibold text-brand-600 bg-brand-50 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Mar
+                        2017 - Mar 2017</span>
+                  </div>
+                  <h5 class="text-base font-semibold text-light-500 mb-4">SMKS Muara Indonesia Jakarta</h5>
+                  <ul class="space-y-2 text-light-600 text-sm md:text-base list-disc list-outside ml-4">
+                     <li>Mengelola transaksi ritel dan administrasi keuangan harian dengan memfasilitasi pelayanan yang
+                        efisien untuk lebih dari
+                        100 staf dan siswa.</li>
+                     <li>Menjaga akurasi pergerakan arus kas (cash handling) yang berdampak pada pencapaian ketepatan
+                        saldo harian sebesar 100%.</li>
+                     <li>Mendukung pelaksanaan stock opname guna memastikan kesesuaian data inventaris fisik dengan
+                        sistem pencatatan.</li>
+                  </ul>
+               </div>
+
+            </div>
          </div>
       </section>
 
@@ -327,7 +454,7 @@
                      class="fa-brands fa-html5 text-3xl sm:text-4xl md:text-5xl mb-3 sm:mb-4 text-textMuted group-hover:text-white transition-colors duration-500 transform group-hover:-translate-y-2"></i>
                   <h4
                      class="font-semibold text-sm sm:text-base md:text-lg text-white transform group-hover:-translate-y-1 transition-transform duration-500">
-                     HTML5 / CSS3</h4>
+                     HTML5</h4>
                </div>
 
                <!-- Skill 2 -->
@@ -445,6 +572,45 @@
                   <h4
                      class="font-semibold text-sm sm:text-base md:text-lg text-white transform group-hover:-translate-y-1 transition-transform duration-500">
                      AppScript</h4>
+               </div>
+
+               <!-- Skill 11 -->
+               <div
+                  class="group surface-glass aspect-square rounded-2xl sm:rounded-3xl border border-white/5 hover:border-white/20 transition-all duration-500 relative overflow-hidden flex flex-col items-center justify-center text-center p-4">
+                  <div
+                     class="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  </div>
+                  <i
+                     class="fa fa-file-excel text-3xl sm:text-4xl md:text-5xl mb-3 sm:mb-4 text-textMuted group-hover:text-white transition-colors duration-500 transform group-hover:-translate-y-2"></i>
+                  <h4
+                     class="font-semibold text-sm sm:text-base md:text-lg text-white transform group-hover:-translate-y-1 transition-transform duration-500">
+                     Excel / Google Sheet</h4>
+               </div>
+
+               <!-- Skill 12 -->
+               <div
+                  class="group surface-glass aspect-square rounded-2xl sm:rounded-3xl border border-white/5 hover:border-white/20 transition-all duration-500 relative overflow-hidden flex flex-col items-center justify-center text-center p-4">
+                  <div
+                     class="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  </div>
+                  <i
+                     class="fa fa-photo-film text-3xl sm:text-4xl md:text-5xl mb-3 sm:mb-4 text-textMuted group-hover:text-white transition-colors duration-500 transform group-hover:-translate-y-2"></i>
+                  <h4
+                     class="font-semibold text-sm sm:text-base md:text-lg text-white transform group-hover:-translate-y-1 transition-transform duration-500">
+                     Canva / Canva Design</h4>
+               </div>
+
+               <!-- Skill 13 -->
+               <div
+                  class="group surface-glass aspect-square rounded-2xl sm:rounded-3xl border border-white/5 hover:border-white/20 transition-all duration-500 relative overflow-hidden flex flex-col items-center justify-center text-center p-4">
+                  <div
+                     class="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  </div>
+                  <i
+                     class="fa fa-brands fa-github text-3xl sm:text-4xl md:text-5xl mb-3 sm:mb-4 text-textMuted group-hover:text-white transition-colors duration-500 transform group-hover:-translate-y-2"></i>
+                  <h4
+                     class="font-semibold text-sm sm:text-base md:text-lg text-white transform group-hover:-translate-y-1 transition-transform duration-500">
+                     Github</h4>
                </div>
             </div>
          </div>
@@ -826,6 +992,199 @@
                            class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">HTML</span>
                         <span
                            class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Tailwind</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">AppScript</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="group cursor-pointer reveal" style="transition-delay: 150ms;">
+                  <div
+                     class="relative w-full aspect-[4/3] rounded-2xl sm:rounded-[2rem] overflow-hidden mb-5 sm:mb-6 border border-white/10 shadow-xl">
+                     <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-700 z-10">
+                     </div>
+                     <img src="assets/sim_maulid.png" alt="Progress Monitoring Maulid"
+                        class="w-full h-full object-cover transform scale-105 group-hover:scale-100 transition-transform duration-1000 ease-out">
+
+                     <div
+                        class="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        <div onclick="location.href='https://app-monitoring-maulid.vercel.app/'"
+                           class="btn-depth px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 pointer-events-auto text-sm sm:text-base font-semibold">
+                           View Project <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="px-2">
+                     <h4
+                        class="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors">
+                        Progress Monitoring Maulid</h4>
+                     <p class="text-textMuted text-xs sm:text-sm font-medium mb-4">
+                        Sistem Informasi Management Monitoring Maulid untuk membantu mengelola, memantau, dan
+                        mendokumentasikan kegiatan Maulid
+                        secara mudah, terstruktur, dan efisien.
+                     </p>
+                     <div class="flex flex-wrap gap-2">
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">HTML</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Tailwind</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">AppScript</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="group cursor-pointer reveal" style="transition-delay: 150ms;">
+                  <div
+                     class="relative w-full aspect-[4/3] rounded-2xl sm:rounded-[2rem] overflow-hidden mb-5 sm:mb-6 border border-white/10 shadow-xl">
+                     <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-700 z-10">
+                     </div>
+                     <i class="transform scale-105 group-hover:scale-100 transition-transform duration-1000 ease-out"
+                        style="display: flex; justify-content: center; align-items: center; padding-top: 60px;">
+                        <div class="fa fa-file-excel" style="font-size: 180px;">
+                        </div>
+                     </i>
+                     <div
+                        class="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        <div
+                           onclick="location.href='https://docs.google.com/spreadsheets/d/1nNC4Q9gdqDL0BOX5WMVFRn0_sOI80AMMZa8QKczUVwE/edit?usp=sharing'"
+                           class="btn-depth px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 pointer-events-auto text-sm sm:text-base font-semibold">
+                           View Project <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="px-2">
+                     <h4
+                        class="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors">
+                        Dashboard Google Sheet / Excel</h4>
+                     <p class="text-textMuted text-xs sm:text-sm font-medium mb-4">
+                        Dashboard Google Sheet / Excel
+                     </p>
+                     <div class="flex flex-wrap gap-2">
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Excel</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Google
+                           Sheet</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">AppScript</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="group cursor-pointer reveal" style="transition-delay: 150ms;">
+                  <div
+                     class="relative w-full aspect-[4/3] rounded-2xl sm:rounded-[2rem] overflow-hidden mb-5 sm:mb-6 border border-white/10 shadow-xl">
+                     <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-700 z-10">
+                     </div>
+                     <i class="transform scale-105 group-hover:scale-100 transition-transform duration-1000 ease-out"
+                        style="display: flex; justify-content: center; align-items: center; padding-top: 60px;">
+                        <div class="fa fa-file-excel" style="font-size: 180px;">
+                        </div>
+                     </i>
+                     <div
+                        class="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        <div
+                           onclick="location.href='https://docs.google.com/spreadsheets/d/1DDDbEjSA3K1DRngJQWFHsywNwY5fvhzPSdYv-TyoGVA/edit?usp=sharing'"
+                           class="btn-depth px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 pointer-events-auto text-sm sm:text-base font-semibold">
+                           View Project <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="px-2">
+                     <h4
+                        class="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors">
+                        Laporan Google Sheet / Excel</h4>
+                     <p class="text-textMuted text-xs sm:text-sm font-medium mb-4">
+                        Laporan Keuangan Penginapan - Hotel Prima Jaya Sakti
+                     </p>
+                     <div class="flex flex-wrap gap-2">
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Excel</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Google
+                           Sheet</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">AppScript</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="group cursor-pointer reveal" style="transition-delay: 150ms;">
+                  <div
+                     class="relative w-full aspect-[4/3] rounded-2xl sm:rounded-[2rem] overflow-hidden mb-5 sm:mb-6 border border-white/10 shadow-xl">
+                     <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-700 z-10">
+                     </div>
+                     <i class="transform scale-105 group-hover:scale-100 transition-transform duration-1000 ease-out"
+                        style="display: flex; justify-content: center; align-items: center; padding-top: 60px;">
+                        <div class="fa fa-file-excel" style="font-size: 180px;">
+                        </div>
+                     </i>
+                     <div
+                        class="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        <div
+                           onclick="location.href='https://docs.google.com/spreadsheets/d/1AR0PeeLOTYcD0RjvT3_wYzzrRRqXAOJdX6BCogmTl_4/edit?usp=sharing'"
+                           class="btn-depth px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 pointer-events-auto text-sm sm:text-base font-semibold">
+                           View Project <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="px-2">
+                     <h4
+                        class="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors">
+                        Laporan Google Sheet / Excel</h4>
+                     <p class="text-textMuted text-xs sm:text-sm font-medium mb-4">
+                        Laporan Daftar Setoran
+                     </p>
+                     <div class="flex flex-wrap gap-2">
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Excel</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Google
+                           Sheet</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">AppScript</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="group cursor-pointer reveal" style="transition-delay: 150ms;">
+                  <div
+                     class="relative w-full aspect-[4/3] rounded-2xl sm:rounded-[2rem] overflow-hidden mb-5 sm:mb-6 border border-white/10 shadow-xl">
+                     <div
+                        class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-700 z-10">
+                     </div>
+                     <i class="transform scale-105 group-hover:scale-100 transition-transform duration-1000 ease-out"
+                        style="display: flex; justify-content: center; align-items: center; padding-top: 60px;">
+                        <div class="fa fa-file-excel" style="font-size: 180px;">
+                        </div>
+                     </i>
+                     <div
+                        class="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        <div
+                           onclick="location.href='https://docs.google.com/spreadsheets/d/1b2QI0UCs0IXJ-uGyksENsHveZDHvicNKSdtf5HVGmI0/edit?usp=sharing'"
+                           class="btn-depth px-5 py-2.5 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 pointer-events-auto text-sm sm:text-base font-semibold">
+                           View Project <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="px-2">
+                     <h4
+                        class="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors">
+                        Laporan Google Sheet / Excel</h4>
+                     <p class="text-textMuted text-xs sm:text-sm font-medium mb-4">
+                        Excel Spreadsheet (Lap Daftar Gaji Pegawai)
+                     </p>
+                     <div class="flex flex-wrap gap-2">
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Excel</span>
+                        <span
+                           class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">Google
+                           Sheet</span>
                         <span
                            class="px-3 py-1 sm:px-4 sm:py-1.5 rounded-full border border-borderSubtle text-[10px] sm:text-xs font-semibold text-gray-300 bg-white/5">AppScript</span>
                      </div>
